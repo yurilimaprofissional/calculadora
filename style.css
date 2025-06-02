@@ -1,7 +1,20 @@
 @charset "UTF-8";
 
 * {
-    background-color: rgb(13, 49, 253);
     margin: 0;
-    padding: 0;
+    padding: 0; 
+}
+
+.fundo {
+    background-color: rgb(13, 49, 253);
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: gray;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
