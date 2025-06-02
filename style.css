@@ -18,7 +18,7 @@ h1 {
 
 .calculadora {
     position: absolute;
-    background-color: gray;
+    background-color: rgb(133, 133, 133);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -42,9 +42,12 @@ h1 {
 
 #resultado {
     background-color: white;
-    width: 223px;
+    width: 220px;
     height: 30px;
     margin: 5px;
     font-size: 25px;
+    color: black;
+    border: 2px solid;
+    text-align: right;
 }
 
