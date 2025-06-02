@@ -11,6 +11,11 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .calculadora {
     position: absolute;
     background-color: gray;
@@ -20,3 +25,26 @@
     border-radius: 10px;
     padding: 20px;
 }
+
+.botao {
+    background-color: lightgrey;
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+
+.botao:hover {
+    background-color: rgb(184, 183, 183);
+}
+
+#resultado {
+    background-color: white;
+    width: 223px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+}
+
